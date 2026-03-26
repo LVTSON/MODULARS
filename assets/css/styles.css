@@ -4,9 +4,12 @@
 
 :root {
     --Primary-color-black-green: #143C3C;
+    --Primary-color-black: #152427;
+    --text-color-black-gray: #575D5E;
 }
 
-html {
+html {    
+    color: var(--Primary-color-black);
     font-size: 62.5%;
 }
 
@@ -95,4 +98,81 @@ body {
     width: 16px;
     height: 2px;
     background: var(--Primary-color-black-green);
+}
+
+/* header body */
+.header__body {
+    margin-top: 60px;
+}
+
+.header__body--content {
+    width: 34.4%;
+    height: 256px;
+}
+
+.header__content--heading {
+    font-family: "Public Sans";
+    width: 368px;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1.2; /* 120% */
+}
+
+.header__content--desc {
+    margin-top: 20px;
+    color: var(--text-color-black-gray);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+}
+
+.header__content--button {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.Get-in-touch {
+    font-family: "Public Sans";
+    padding: 15px 35px;
+    border-radius: 40px;
+    background: var(--Primary-color-black-green);
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55;
+}
+
+.header__button--Watch-Video,
+.header__button--icon {
+    display: flex;
+    align-items: center;
+}
+
+.header__button--icon {
+    position: relative;
+    margin-right: 15px;
+}
+
+.header__button--circle::before {
+    content: "";
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(131, 161, 125, 1);
+}
+
+.header__button--playicon {
+    position: absolute;
+    left: 20px;
+}
+
+.header__button--text {
+    color: #152427;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
 }
