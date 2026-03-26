@@ -87,3 +87,12 @@ body {
     height: 2px;
     background: linear-gradient(90deg, #FFF 0%, #DDDCDC 51.09%, rgba(212, 212, 212, 0.00) 99.68%);
 }
+
+.line::before {
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: var(--Primary-color-black-green);
+}
