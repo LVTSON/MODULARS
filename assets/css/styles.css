@@ -6,6 +6,7 @@
     --Primary-color-black-green: #143C3C;
     --Primary-color-black: #152427;
     --text-color-black-gray: #575D5E;
+    --Scondery-color-light-green: #E2EDDF;
 }
 
 html {    
@@ -103,11 +104,14 @@ body {
 /* header body */
 .header__body {
     margin-top: 60px;
+    padding-bottom: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__body--content {
     width: 34.4%;
-    height: 256px;
 }
 
 .header__content--heading {
@@ -175,4 +179,76 @@ body {
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.66; /* 166.667% */
+}
+
+/* header__body images */
+
+.header__body--images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__body--img {
+    width: 202px;
+    height: 466px;
+    border-radius: 110px;
+    object-fit: cover;
+}
+
+.header__body--img:nth-of-type(2) {
+    position: relative;
+    top: 77px;
+}
+
+/* header__logo-branch */
+
+.header__logo-branch {
+    margin-top: 43px;
+    padding: 0 122px;
+    height: 201px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--Primary-color-black-green);
+    background-color: var(--Scondery-color-light-green);
+    border-radius: 100.5px;
+}
+
+.logo__name--item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.header__logo--Google {
+    font-family: Poppins;
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.header__logo--slack {
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.header__logo--Agworld {
+    color: #163C35;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.header__logo--RioTinto {
+    font-family: "Sonsie One";
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.header__logo--HEROKU {
+    font-family: Poppins;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
 }
