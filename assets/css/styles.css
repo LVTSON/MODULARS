@@ -361,6 +361,10 @@ body {
     justify-content: space-between;
 }
 
+.about-us__part--left {
+    position: relative;
+}
+
 .about-us__images {
     display: flex;
     gap: 21px;
@@ -379,6 +383,129 @@ body {
     box-shadow: 0 4px 234px 11px rgba(59, 137, 71, 0.25);
 }
 
+/* about us card */
+.about-us-card {
+    position: absolute;
+    z-index: 10;
+    left: 80%;
+    bottom: -68px;
+    width: 143px;
+    padding: 19px 23px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 7px 54px 0 rgba(154, 154, 154, 0.5);
+
+}
+
+.about-us__card--heding {
+    color: var(--Primary-color-black);
+    font-family: "Public Sans";
+    font-size: 1.4rem;
+    font-weight: 600;/* 100% */   
+}
+
+.about-us__card--desc {
+    margin-top: 8px;
+    color: var(--text-color-black-gray);
+    font-family: "Public Sans";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4; /* 140% */
+    opacity: 0.4;
+}
+
+.about-us__card--number {
+    margin-top: 10px;
+    color: var(--Primary-color-black);
+    font-family: "Public Sans";
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+}
+
+.about-us__card--line {
+    margin-top: 3px;
+    display: block;
+    width: 96px;
+    height: 2px;
+    border-radius: 10px;
+    background: #EAEAEA;
+}
+
+.about-us__card--word {
+    margin-top: 3px;
+    text-align: right;
+    color: var(--Primary-color-black);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+}
+
+.about-us__card--circle {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.about-us__circle-big::before {
+    position: relative;
+    content: "";
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #EAEAEA;
+}
+
+.about-us__circle-small::after {
+    position: absolute;
+    left: 26px;
+    top: 107px;
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--Primary-color-black-green);
+}
+
+.about-us__card--team {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us__card--list {
+    display: flex;
+}
+
+.about-us__card--team-word {
+    margin-right: 30px;
+    color: var(--Primary-color-black);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+}
+
+.about-us__card--member {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #FFF;
+}
+
+.about-us__card--member:nth-child(2), 
+.about-us__card--member:nth-child(3), 
+.about-us__card--member:nth-child(4) {
+    margin-left: -8px;
+}
+
+/* about us body */
 .aboutus__body {
     max-width: 483px;
     margin-left: 55px;
