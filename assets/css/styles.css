@@ -131,6 +131,9 @@ body {
     background: var(--Primary-color-black);
 }
 
+.arrow {
+    display: block;
+}
 /* header body */
 .header__body {
     margin-top: 60px;
@@ -678,10 +681,6 @@ hr {
     line-height: 1.55; /* 155.556% */
 }
 
-.feature__content--icon {
-    display: block;
-}
-
 .feature__media {
     position: relative;
 }
@@ -714,4 +713,316 @@ hr {
     position: relative;
     bottom: 74px;
     left: 50px;
+}
+
+/* service features  */
+.service__feature {
+    margin-top: 140px;
+}
+
+.service__feature--heading {
+    margin: 0 auto ;
+    text-align: center;
+    max-width: 520px;
+}
+
+.service__feature--desc {
+    margin: 20px auto 0;
+    max-width: 547px;
+    text-align: center;
+    color: #7D8188;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+}
+
+.service__feature--all-card {
+    margin-top: 103px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 421px;
+}
+
+.service__card--item {
+    width: 350px;
+    height: 362px;
+    border-radius: 160px;
+    box-shadow: 0 36px 100px 0 rgba(111, 120, 111, 0.20);  
+    padding: 80px 27px 74px 37px;
+}
+
+.service__card--item:hover {
+    scale: calc(1.1);
+    cursor: pointer;
+    box-shadow: 0 36px 100px 0 rgba(111, 120, 111, 0.9);
+}
+.service__card--icon {
+    width: 39px;
+    height: 35px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.service__card--title {
+    margin-top: 26px;
+    text-align: center;
+    color: #152427;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.service__card--desc {
+    margin-top: 12px;
+    color: #7D8188;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71; /* 171.429% */
+}
+
+/* blog */
+
+.blog {
+    margin-top: 184px;
+}
+
+.blog__top {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__heading {
+    max-width: 520px;
+}
+
+.blog__title {
+    position: relative;
+    top: 50px;
+    max-width: 392px;
+}
+
+/* blog body */
+
+.blog__body--list {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.blog__body--item {
+    border-radius: 40px 40px 0 0;
+}
+
+.blog__item--img {
+    width: 360px;
+    height: 317px;
+    border-radius: 40px 40px 0 0;
+    object-fit: cover;
+}
+
+.blog__item--content {
+    margin-top: 33px;
+
+}
+
+.blog__item--title {
+    padding: 7px 34px;
+    color: var(--Primary-color-black);
+    background: var(--Scondery-color-light-green);
+    border-radius: 20px;
+    color: var(--Primary-color-black);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.blog__item--heading {
+    margin-top: 20px;
+    padding-bottom: 38px;
+    color: var(--Primary-color-black-green);
+    text-align: left;
+    max-width: 346px;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+}
+
+.blog__item--time {
+    padding-top: 16px;
+    border-top: 1px solid #C4C4C4;
+    color: var(--text-color-black-gray);
+    font-family: Poppins;
+    text-align: right;
+    font-size: 1.0rem;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+}
+
+/* blog item hover */
+.blog__body--item:hover {
+    scale: calc(1.1);
+    box-shadow: 0 12px 74px 0 rgba(91, 91, 91, 0.5);
+}
+
+.blog__body--item:hover .blog__item--content {
+    padding: 0 33px 12px;
+}
+
+.blog__body--item:hover .blog__item--title {
+    color: var(--Scondery-color-light-green);
+    background: var(--Primary-color-black-green);
+}
+
+.blog__body--item:hover .blog__item--heading {
+    max-width: 280px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 102px;
+    padding: 72px 0 50px;
+    background-color: var(--Primary-color-black-green);
+}
+
+.footer__body {
+    display: flex;
+    padding: 72px 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer left */
+
+.footer__left--heading {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.footer__left--active {
+    margin-top: 25px;
+    padding-bottom: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 354px;
+    border-bottom: 1px solid #6A8383;
+}
+
+.footer__left--form {
+    color:  #6A8383;
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+    border: none;
+    background-color: var(--Primary-color-black-green);
+}
+
+.footer__left--arrow {
+    margin-right: 13px;
+}
+
+.footer__left--icon {
+    margin-top: 47px;
+    display: flex;
+    gap: 22px;
+}
+
+
+.footer__left--img-insta {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 2px solid #FCFCFC;
+}
+
+.footer__left--images {
+    display: flex;
+}
+
+.footer__left--img-fb {
+    position: relative;
+    top: 17px;
+    right: 30px;
+    width: 8.432px;
+    height: 21.081px;
+}
+
+.footer__left--img-bird {
+    position: relative;
+    top: 17px;
+    right: 37px;
+    width: 25.297px;
+    height: 18.551px;
+}
+
+.footer__left--circle {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #265252;
+}
+
+.footer__left--img-insta {
+    position: relative;
+    top: 17px;
+    right: 35px;
+}
+
+
+.footer__left--img-insta::before {
+    position: relative;
+    left: 3px;
+    top: 3px;
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 0.5px solid #FCFCFC;
+}
+
+.footer__left--circle:hover {
+    background-color: rgba(167, 83, 37, 1);
+}
+
+/* footer right */
+.footer__right--list {
+    display: flex;
+    gap: 50px;
+}
+
+.footer__right--title {
+    color:  #FFF;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+}
+
+.footer__right--item-list {
+    margin-top: 6px;
+}
+
+.footer__item--name a {
+    color: #ddd7d7;
+    display: block;
+    padding: 14px 0;
+    font-family: "Public Sans";
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
 }
