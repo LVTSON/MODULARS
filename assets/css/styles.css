@@ -95,9 +95,13 @@ body {
 .line {
     margin-top: 13px;
     display: block;
-    width: 1140px;
+    max-width: 1140px;
     height: 2px;
     background: linear-gradient(90deg, #FFF 0%, #DDDCDC 51.09%, rgba(212, 212, 212, 0.00) 99.68%);
+}
+
+.header__top--3-line {
+    display: none;
 }
 
 .line::before {
@@ -287,6 +291,134 @@ body {
     letter-spacing: 1.995px;
 }
 
+/* responsive header */
+
+@media only screen and (max-width: 41.6875em) {
+    .header__list {
+        display: none;
+    }
+
+    .line,.services,.about-us,.process,.feature,.service__feature,.blog {
+        width: 100%;
+    }
+
+    .header__top--3-line{
+        display: block;
+        margin-right: 19px;
+        margin-left: 30px;
+    }
+
+    .header__body--content,
+    .header__button--Watch-Video {
+        width: 100%;
+    }
+
+    .header__content--heading {
+        width: 233px;
+        font-size: 3rem;
+        line-height: 1.33; /* 133.333% */
+    }
+
+    .header__content--desc {
+        width: 240px;
+        font-size: 1.4rem;
+        line-height: 1.71; /* 171.429% */
+    }
+
+    .header__content--button {
+        gap: 25px;
+    }
+
+    .Get-in-touch {
+        padding: 3px 20px;
+        font-size: 1.2rem;
+        line-height: 2.33; /* 233.333% */
+    }
+
+    .header__button--text {
+        font-size: 1.4rem;
+        line-height: 2.14; /* 214.286% */
+    }
+
+    .btn{
+        color: #FFF;
+        padding: 9px 24px;
+        text-align: center;
+        font-family: "Public Sans";
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.16; /* 116.667% */
+    }
+
+    .header__body {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .header__body--images {
+        width: 100%;
+        justify-content: center;
+        margin-top: 67px;
+    }
+
+    .header__body--img {
+        width: 85.351px;
+        height: 196.898px;
+    }
+
+    .header__logo-branch {
+        border-radius: 30px;
+        padding: 28px;
+        display: grid;
+        grid-template-areas:
+        "aa bb"
+        "cc dd"
+        "ee ee" 
+        ;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .Google {
+        grid-area: aa;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .slack {
+        grid-area: bb;
+    }
+
+    .header__logo--slack {
+        font-size: 2.5rem;
+    }
+
+    .Agworld {
+        grid-area: cc;
+    }
+
+    .header__logo--Agworld {
+        font-size: 2rem;
+    }
+
+    .RioTinto {
+        grid-area: dd;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .HEROKU {
+        grid-area: ee;
+        margin: 0 auto;
+    }
+
+    /* service */
+
+    .services {
+        width: 100%;
+        margin-top: 107px;
+    }
+}
 /* our services */
 
 .services {
