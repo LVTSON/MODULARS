@@ -1,0 +1,22 @@
+@media only screen and (max-width:41em) {
+    .body {
+        background-color: brown;
+    }
+    .header__top {
+        margin-right: 24px;
+    }
+    .header__list {
+        display: none;
+    }
+
+    .header__top--3-line {
+        display: block;
+    }
+
+    .btn {
+        margin-right: 30px;
+        padding: 9px 24px;
+        font-size: 1.2rem;
+        line-height: 1.16; /* 116.667% */
+    }
+}
