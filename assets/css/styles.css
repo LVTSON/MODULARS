@@ -41,12 +41,11 @@ a {
 
 body {
     font-size: 1.6rem;
-    font-family: "Public Sans",sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .heading {
     color: var(--Primary-color-black);
-    font-family: Poppins;
     font-size: 4.2rem;
     font-weight: 600;
     line-height: 1.23; /* 123.81% */
@@ -121,7 +120,6 @@ body {
 .title__all--heading {
     margin-left: 21px;
     color: var(--Primary-color-black);
-    font-family: Poppins;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.62; /* 162.5% */
@@ -212,7 +210,6 @@ body {
 
 .header__button--text {
     color: var(--Primary-color-black);
-    font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.66; /* 166.667% */
@@ -260,20 +257,19 @@ body {
 }
 
 .header__logo--Google {
-    font-family: Poppins;
     font-size: 3.1rem;
     font-weight: 500;
 }
 
 .header__logo--slack {
-    font-family: Poppins;
+    
     font-size: 3.2rem;
     font-weight: 600;
 }
 
 .header__logo--Agworld {
     color: #163C35;
-    font-family: Poppins;
+    
     font-size: 2.6rem;
     font-weight: 400;
 }
@@ -285,7 +281,7 @@ body {
 }
 
 .header__logo--HEROKU {
-    font-family: Poppins;
+    
     font-size: 1.9rem;
     font-weight: 600;
     letter-spacing: 1.995px;
@@ -340,7 +336,7 @@ body {
 
 .service__item--heading {
     color: var(--Primary-color-black, #152427);
-    font-family: Poppins;
+    
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 1; /* 100% */
@@ -350,7 +346,7 @@ body {
     margin-top: 18px;
     max-width: 268px;
     color:  #7D8188;
-    font-family: Poppins;
+    
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.7; /* 171.429% */
@@ -526,7 +522,7 @@ body {
 .about-us__desc {
     margin-top: 11px;
     color: var(--text-color-light-gray);
-    font-family: Poppins;
+    
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.625; /* 162.5% */
@@ -541,7 +537,7 @@ body {
 .about-us__info--number {
     margin-right: 24px;
     color: var(--Primary-color-black);
-    font-family: Poppins;
+    
     font-size: 4.2rem;
     font-weight: 600;
     line-height: 1.23; /* 123.81% */
@@ -549,7 +545,7 @@ body {
 
 .about-us__info--desc {
     color: var(--text-color-light-gray);
-    font-family: Poppins;
+    
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.7; /* 171.429% */
@@ -607,7 +603,7 @@ hr {
 
 .process__step--number {
     color: var(--Primary-color-black-green);
-    font-family: Poppins;
+    
     font-size: 7.2rem;
     font-weight: 600;
 }
@@ -616,7 +612,7 @@ hr {
     margin-top: 22px;
     display: block;
     color:  #575D5E;
-    font-family: Poppins;
+    
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1;
@@ -625,7 +621,7 @@ hr {
 
 .process__step--heading {
     color: var(--Primary-color-black);
-    font-family: Poppins;
+    
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 600;
@@ -735,7 +731,7 @@ hr {
     max-width: 547px;
     text-align: center;
     color: #7D8188;
-    font-family: Poppins;
+    
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.62; /* 162.5% */
@@ -773,7 +769,7 @@ hr {
     margin-top: 26px;
     text-align: center;
     color: #152427;
-    font-family: Poppins;
+    
     font-size: 2rem;
     font-weight: 600;
     line-height: 1; /* 100% */
@@ -783,7 +779,7 @@ hr {
     margin-top: 12px;
     color: #7D8188;
     text-align: center;
-    font-family: Poppins;
+    
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.71; /* 171.429% */
@@ -842,7 +838,7 @@ hr {
     background: var(--Scondery-color-light-green);
     border-radius: 20px;
     color: var(--Primary-color-black);
-    font-family: Poppins;
+    
     font-size: 1rem;
     font-weight: 500;
 }
@@ -853,7 +849,7 @@ hr {
     color: var(--Primary-color-black-green);
     text-align: left;
     max-width: 346px;
-    font-family: Poppins;
+    
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.66; /* 166.667% */
@@ -863,7 +859,7 @@ hr {
     padding-top: 16px;
     border-top: 1px solid #C4C4C4;
     color: var(--text-color-black-gray);
-    font-family: Poppins;
+    
     text-align: right;
     font-size: 1.0rem;
     font-weight: 500;
@@ -908,7 +904,7 @@ hr {
 
 .footer__left--heading {
     color: #FFF;
-    font-family: Poppins;
+    
     font-size: 3.2rem;
     font-weight: 500;
 }
@@ -925,7 +921,7 @@ hr {
 
 .footer__left--form {
     color:  #6A8383;
-    font-family: Poppins;
+    
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 1; /* 100% */
