@@ -1,4 +1,8 @@
-@media only screen and (max-width:41em) {
+@media only screen and (max-width:656px) {
+
+    .header {
+        width: 100%;
+    }
 
     .header__list {
         display: none;
@@ -16,12 +20,82 @@
     }
 
     .header__body {
+        width:100%;
         flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__body--content {
+        width: 100%;
+    }
+
+    .header__content--heading {
+        width: 66%;
+        font-size: 3rem;
+        line-height: 1.33; /* 133.333% */
+    }
+
+    .header__content--desc {
+        width: 78%;
+        font-size: 1.4rem; /* 171.429% */
+    }
+
+    .header__content--button {
+        margin-top: 22px;
+        gap: 25px;
+    }
+
+    .Get-in-touch {
+        padding: 5px 20px;
+        font-size: 1.2rem;
+        line-height: 2.33;
+    }
+
+    .header__body--images {
+        margin-top: 67px;
     }
 
     .header__body--img {
         width: 85.351px;
         height: 196.898px;
+    }
+
+    .header__logo-branch {
+        position: relative;
+        border-radius: 30px;
+    }
+
+    .header__logo-branch--list {
+        position: absolute;
+        right: 36px;
+        top: 22px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "aa bb"
+        "cc dd"
+        "ee ee";
+        gap: 10px;
+    }
+
+    .Google {
+        grid-area: aa;
+    }
+
+    .slack {
+        grid-area: bb;
+    }
+
+    .Agworld {
+        grid-area: cc;
+    }
+
+    .RioTinto {
+        grid-area: dd;
+    }
+
+    .HEROKU {
+        grid-area: ee;
+        justify-content: center;
     }
 }

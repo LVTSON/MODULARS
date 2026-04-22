@@ -174,6 +174,8 @@ body {
 
 .Get-in-touch {
     font-family: "Public Sans";
+    display: block;
+    align-items: center;
     padding: 15px 35px;
     border-radius: 40px;
     background: var(--Primary-color-black-green);
@@ -239,15 +241,18 @@ body {
 /* header__logo-branch */
 
 .header__logo-branch {
+    display: block;
     margin-top: 43px;
-    padding: 0 122px;
-    height: 201px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 85px 122px;
     color: var(--Primary-color-black-green);
     background-color: var(--Scondery-color-light-green);
     border-radius: 100.5px;
+}
+
+.header__logo-branch--list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo__name--item {
