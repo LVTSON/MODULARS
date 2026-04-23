@@ -98,4 +98,70 @@
         grid-area: ee;
         justify-content: center;
     }
+
+    /* service */
+
+    .service__heading {
+        width: 91.5%;
+    }
+
+    .service__list {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        border-radius: 20px;
+    }
+
+    .service__item {
+        min-width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+
+    /* about */
+
+    .about-us {
+        width: 100%;
+    }
+
+    .about-us__main {
+        flex-direction: column;
+    }
+
+    .about-us__img {
+        width: 153.404px;
+        height: 257.462px;
+    }
+
+    .about-us-card {
+        left: 51%;
+        bottom: -90px;
+    }
+
+    .aboutus__body {
+        margin-top: 153px;
+        margin-left: auto;
+    }
+
+    .about-us__heading {
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    .about-us__desc {
+        color: var(--text-color-light-gray, #7D8188);
+        font-size: 1.4rem;
+        width: 86%;
+    }
+
+    .about-us__info--desc {
+        color: var(--text-color-light-gray, #7D8188);
+        font-size: 1rem;
+    }
+
+    .about-us__info--number {
+        font-size: 3.2rem;
+    }
 }
+

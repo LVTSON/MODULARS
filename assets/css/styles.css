@@ -321,12 +321,12 @@ body {
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
 }
 
-.service__item:hover {
+/* .service__item:hover {
     position: relative;
     top: 10px;
     cursor: pointer;
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.9);
-}
+} */
 
 .service__item--img {
     width: 370px;
