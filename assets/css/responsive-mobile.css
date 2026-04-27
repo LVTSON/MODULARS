@@ -119,10 +119,6 @@
         scroll-snap-align: start;
     }
 
-    .service__item--img {
-        width: 100%;
-    }
-
     /* about */
 
     .about-us {
